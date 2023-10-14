@@ -1,0 +1,24 @@
+// Variabel restaurant bertipe object
+
+const restaurant ={
+    name : "Sushi House",
+    city : "Jakarta",
+    favoriteDrink : "Matcha Latte",
+    favoriteFood : "Maki Sushi",
+    isVegan : true
+};
+console.table(restaurant)
+
+// Variabel restaurant bertipe Array
+
+const restaurant1 = [
+    {
+      name: "Steak House",
+      city: "Bandung",
+      favoriteDrink: "Lemonade",
+      favoriteFood: "Cordon Blue",
+      isVegan: false
+    }
+  ];
+   
+  console.table(restaurant1)
